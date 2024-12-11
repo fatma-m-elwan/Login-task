@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SignUp</title>
+   <link rel="stylesheet" href="../css/all.min.css">
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+      <section id="signUp">
+         <div class="container my-5">
+            <div class="content w-75 m-auto text-center p-5 ">
+               <h1 class="text-info ">Smart Login System</h1>
+               <input class="form-control my-3 text-white shadow-none userName" type="text" placeholder="Enter your name" />
+               <input class="form-control my-3 text-white shadow-none userEmail" type="email" placeholder="Enter your email" />
+               <input class="form-control my-3 text-white shadow-none userPass" type="password" placeholder="Enter your password" />
+               <p id="message" class="text-danger"></p>
+               <button type="button" class=" signup btn btn-outline-info w-100 mt-3">Sign Up</button>
+               <p class="text-center text-white mt-3">You have an account? <a class="text-white text-decoration-none" id="singInPage" href="../index.html">Signin</a></p>
+            </div>
+         </div>
+      </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <script src="../js/shared.js"></script>
+   <script src="../js/signup.js"></script>
+</body>
+
+</html>
